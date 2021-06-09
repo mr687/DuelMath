@@ -1,0 +1,22 @@
+{
+  "name": "battle-math",
+  "version": "1.0.0",
+  "description": "Simple multiplayer game battle",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [
+    "game",
+    "socket"
+  ],
+  "author": "daphino",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
+}
